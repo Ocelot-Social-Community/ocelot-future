@@ -34,7 +34,7 @@ export const globalTypes = {
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
-  layout: "fullscreen",
+  layout: "padded",
 };
 
 export const decorators = [withVuetifyTheme];
